@@ -1,0 +1,11 @@
+{
+  "name": "learning_js",
+  "version": "1.0.0",
+  "description": "I will track my javascript learning here",
+  "main": "filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sneha Agarwal",
+  "license": "ISC"
+}
