@@ -8,7 +8,7 @@ const arr = [1, 2, 3, 4, 5];
 const filteredArr = arr.filter((el) => {
     return el > 4
 });
-// console.log(filteredArr);
+console.log(filteredArr);
 /**
  * What is a call back function 
  */
@@ -59,6 +59,7 @@ const tableAvailabilityData = [
     },
 
 ];
+
 
 // find out seats available at 10:00am 
 
