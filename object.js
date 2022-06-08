@@ -1,0 +1,1 @@
+const str = 'Life, the universe and everything. Answer:';

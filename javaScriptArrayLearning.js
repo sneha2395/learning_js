@@ -15,11 +15,43 @@ for (const bird of birds) {
 }
 
 // Removing items
-const cities = ['Manchester', 'Liverpool', 'Edinburgh', 'Carlisle'];
-const index = cities.indexOf('Liverpool');
-if (index !== -1) {
-  cities.splice(index, 1);
+// To remove the last  from the array, use pop().
+
+const cities = ['Manchester', 'Liverpool'];
+cities.pop();
+// console.log(cities);
+
+// To remove the first item from an array, use shift():
+const city = ['Delhi', 'Mumbai'];
+city.shift();
+// console.log(city);
+
+// const cities = ['Manchester', 'Liverpool', 'Edinburgh', 'Carlisle'];
+// const index = cities.indexOf('Liverpool');
+// if (index !== -1) {
+//   cities.splice(index, 1);
+// }
+// console.log(cities);
+const dogNames = ['Rocket','Flash','Bella','Slugger'];
+dogNames.toString();
+// console.log(dogNames)
+
+let cheese = 'Cheddar';
+
+if (cheese) {
+  console.log('Yay! Cheese available for making cheese on toast.');
+} else {
+  console.log('No cheese on toast for you today.');
 }
-console.log(cities);
+function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  
+  function randomRGB() {
+    return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
+  } 
+
+
+
 
 
