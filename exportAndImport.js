@@ -8,8 +8,18 @@
 // 📁 modules.js
 // import {modules} from './modules';
 import {tables} from './array';
-
+import {str} from './string';
+import flower from './array';
 
 for (const table of tables) {
     console.log(table);
 }
+const filterFlower = flower.map((num, index) => {
+    if (index < 3) {
+      return num;
+    }
+  });
+
+
+
+console.log(`${str} ${str.length}`);

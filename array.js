@@ -5,3 +5,5 @@ for (const table of tables) {
 }
 
 export {tables};
+
+export let flowers = ['rose', 'jasmine', 'lotus', 'marigold']
