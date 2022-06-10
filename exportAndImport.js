@@ -7,19 +7,29 @@
 
 // 📁 modules.js
 // import {modules} from './modules';
-import {tables} from './array';
-import {str} from './string';
-import flower from './array';
+// import {tables} from './array';
+// import {str} from './string';
+// import flower from './array';
+const {flower, tables} = require('./array');
 
-for (const table of tables) {
-    console.log(table);
-}
-const filterFlower = flower.map((num, index) => {
-    if (index < 3) {
-      return num;
-    }
-  });
-
-
+// for (const table of tables) {
+//     console.log(table);
+// }
+// const filterFlower = flower.map(( index) => {
+//     if (index < 3) {
+//       return num;
+//     }
+//   });
 
 console.log(`${str} ${str.length}`);
+
+// Array.length
+const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
+
+console.log(clothing.length);
+
+const listB = new Array(6);
+
+console.log(listB.length);
+
+// Shortening an array

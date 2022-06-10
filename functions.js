@@ -16,12 +16,12 @@ const fn_name_log = (arg) => {
 };
 
 
-// console.log(fn_name_log(4, 5, arg));
+console.log(function_name(4, 5, fn_name_log));
 
-const sum2 = (a, b) => {
-    return "Sum is"+(a+b);
+// const sum2 = (a, b) => {
+//     return "Sum is"+(a+b);
 
-};
-console.log(sum2(3, 4))
+// };
+// console.log(sum2(3, 4))
  
 
