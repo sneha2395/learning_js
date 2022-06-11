@@ -15,4 +15,8 @@
 //    console.log(y)
 
 
+const student ={
+  name: 'sneha',
+  nam
+}
 
