@@ -14,9 +14,13 @@ const {flower, tables, flowers} = require('./array')
 
 const flower_spelling = flowers.map((flower) => {
   flower = flower.split("");
-  console.log(flower);
-  
+ 
+flower [0] = flower [0].toUpperCase()
+
+flower = flower.join("")
+console.log(flower);
 });
+
 
 
 
@@ -38,7 +42,5 @@ const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
 // console.log(clothing.length);
 const listB = new Array(6);
 // console.log(listB.length);
-
-
 // console.log(person.firstName + " is " + person.age + " years old.";)
 
