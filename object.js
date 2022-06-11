@@ -15,8 +15,20 @@
 //    console.log(y)
 
 
-const student ={
-  name: 'sneha',
-  nam
-}
+
+const car = {
+  type:"4 seater",
+   model:"500", 
+   color:"white"
+  };
+
+
+  // Create an object:
+const person = {
+  firstName: "Harry ",
+  lastName: "Potter",
+  age: 25,
+  eyeColor: "blue"
+};
+
 

@@ -10,8 +10,19 @@
 // import {tables} from './array';
 // import {str} from './string';
 // import flower from './array';
-const {flower, tables} = require('./array');
+const {flower, tables, flowers} = require('./array')
 
+const flower_spelling = flowers.map((flower) => {
+  flower = flower.split("");
+  console.log(flower);
+  
+});
+
+
+
+const str = 'Every Flower has different beauty';
+const words = str.split(' ');
+// console.log(words[3]);
 // for (const table of tables) {
 //     console.log(table);
 // }
@@ -21,15 +32,13 @@ const {flower, tables} = require('./array');
 //     }
 //   });
 
-console.log(`${str} ${str.length}`);
-
+// console.log(`${str} ${str.length}`);
 // Array.length
 const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
-
-console.log(clothing.length);
-
+// console.log(clothing.length);
 const listB = new Array(6);
+// console.log(listB.length);
 
-console.log(listB.length);
 
-// Shortening an array
+// console.log(person.firstName + " is " + person.age + " years old.";)
+

@@ -15,31 +15,32 @@ module.exports = {
 }
 
 
-const array1 = [1, 4, 9, 16];
+
+// const array1 = [1, 4, 9, 16];
 
 // pass a function to map
-const map1 = array1.map(x => x * 2);
+// const map1 = array1.map(x => x * 2);
 
 // console.log(map1);
 
 // Array.length
-const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
+// const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
 
 // console.log(clothing.length);
 
-const listB = new Array(6);
+// const listB = new Array(6);
 
 // console.log(listB.length);
 
 // Shortening an array
 
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
-if (numbers.length > 3) {
-  numbers.length = 3;
-}
+// if (numbers.length > 3) {
+//   numbers.length = 3;
+// }
 
 // console.log(numbers);
-console.log(numbers.length);
+// console.log(numbers.length);
 
 
