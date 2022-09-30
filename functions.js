@@ -41,7 +41,7 @@ function numSum(n){
       for(i = 0; i <= n; i++){
         sum += i; 
          }
-    console.log(sum)
+    // console.log(sum)
          }
 numSum(100);
 
@@ -59,5 +59,11 @@ numSum(100);
 //     return "Sum is"+(a+b);
 // };
 // console.log(sum2(3, 4))
+
+function flowers(rose, lily, lotus) {
+  console.log(arguments[0]);
+}
+  flowers(1, 2, 3);
+
  
 
